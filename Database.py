@@ -12,9 +12,9 @@ c.execute("INSERT INTO words(no, word, points) VALUES(4, 'mandarynka', 10)")
 c.execute("INSERT INTO words(no, word, points) VALUES(5, 'grejpfrut', 9)")
 c.execute("INSERT INTO words(no, word, points) VALUES(6, 'banan', 5)")
 c.execute("INSERT INTO words(no, word, points) VALUES(7, 'liczi', 5)")
+c.execute("INSERT INTO words(no, word, points) VALUES(8, 'czeresnia', 9)")
+c.execute("INSERT INTO words(no, word, points) VALUES(9, 'wisnia', 6)")
+c.execute("INSERT INTO words(no, word, points) VALUES(10, 'mango', 5)")
+
 conn.commit()
-
-
-
-
 conn.close()
