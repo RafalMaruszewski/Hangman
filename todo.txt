@@ -1,0 +1,10 @@
+1. Trim word to be just character string
+2. Make score counting
+3. Make attempts counter
+4. Failure condition: make 10 bad guesses
+5. Win condition: guess all letters correctly before 10 bad shots
+5. Error handling:
+    - writing symbol, empty character or string instead of single character
+    - big and small letters
+6. Save scoreboard in database
+7. Save player name in scoreboard 
