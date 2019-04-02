@@ -16,5 +16,6 @@ c.execute("INSERT INTO words(no, word, points) VALUES(8, 'czeresnia', 9)")
 c.execute("INSERT INTO words(no, word, points) VALUES(9, 'wisnia', 6)")
 c.execute("INSERT INTO words(no, word, points) VALUES(10, 'mango', 5)")
 
+
 conn.commit()
 conn.close()
