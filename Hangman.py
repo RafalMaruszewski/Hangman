@@ -19,12 +19,17 @@ def get_random_word():
 def make_a_guess(random_word):
     guess = input()
     guess = guess.lower()
-    for item in random_word:
-        for letter in item:
-            if guess == letter:
-                print("+1")
-            else:
-                print("Błąd!")
-    
+    #for item in random_word:
+    #    for letter in item:
+    #        if guess == letter:
+    #            print("+1") 
+    #        else:
+    #            print("Błąd!")
+
 random_w = get_random_word()
+print("word:", random_w)
+random_w_str = ''.join(random_w)
+print("After transform: ", random_w_str)
+for i in range(len(random_w_str)):
+    print("_", end = " ")
 make_a_guess(random_w)
