@@ -33,7 +33,6 @@ while True
     
     it1 = 0
     
-    
     guess = input()
     for item in random_w_str:
         error_flag = 0
@@ -48,6 +47,5 @@ while True
     if error_flag == 1:
         bad_guesses_counter += 1
         print("Liczba błędów: ", bad_guesses_counter)
-    
         
     print(empty_random_w_str)
