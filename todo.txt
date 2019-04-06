@@ -1,4 +1,4 @@
-1. Create game loop!
+
 3. Make bad attempts counter
 2. Make score counting
 4. Failure condition: make 10 bad guesses
