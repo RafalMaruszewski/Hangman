@@ -4,7 +4,6 @@ import random
 
 conn = sqlite3.connect('hangman_db')
 c = conn.cursor()
-#TODO: set range depending on database size
 random_index = random.randrange(1,10)
 
 
@@ -31,14 +30,22 @@ for i in range(len(random_w_str)):
 print(empty_random_w_str)
 
 it1 = 0
-it2 = 0
+
 
 guess = input()
 for item in random_w_str:
-    
+    error_flag = 0
     if item == guess:
         print ("Zgadłeś literę ", guess)
         empty_random_w_str[it1] = guess
+    else:
+        error_flag = 1
 
     it1+=1
+
+if error_flag == 1:
+    bad_guesses_counter += 1
+    print("Liczba błędów: ", bad_guesses_counter)
+
+    
 print(empty_random_w_str)

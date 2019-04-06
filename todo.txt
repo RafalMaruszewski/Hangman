@@ -1,3 +1,4 @@
+1. Create game loop!
 3. Make bad attempts counter
 2. Make score counting
 4. Failure condition: make 10 bad guesses
@@ -7,3 +8,4 @@
     - big and small letters
 6. Save scoreboard in database
 7. Save player name in scoreboard
+8. Set random range automatically by database size (rows amount)
