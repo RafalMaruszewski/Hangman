@@ -1,5 +1,5 @@
+3. Make bad attempts counter
 2. Make score counting
-3. Make attempts counter
 4. Failure condition: make 10 bad guesses
 5. Win condition: guess all letters correctly before 10 bad shots
 5. Error handling:
